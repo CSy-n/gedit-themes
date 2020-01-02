@@ -56,7 +56,7 @@
 
   
     <!-- Bracket Matching -->
-    <style name="bracket-match"               foreground="base03" background="base01"/>
+    <style name="bracket-match"               foreground="green" background="base002" bold="true"/>
     <style name="bracket-mismatch"            foreground="red" background="base01"/>
 
     <!-- Search Matching -->
