@@ -22,7 +22,7 @@
 -->
 <style-scheme id="sonar" _name="Sonar" version="1.0">
     <author>Xe</author>
-    <_description>Color scheme based from solarized-dark color palette</_description>
+    <_description>Color scheme using Solarized dark color palette</_description>
 
     <!-- Solarized Palette -->
     <color name="base03"  value="#002B36"/>
@@ -41,17 +41,18 @@
     <color name="blue"    value="#268BD2"/>
     <color name="cyan"    value="#2AA198"/>
     <color name="green"   value="#859900"/>
-    <color name="white-smoke" value="#f5f5f5"/>
+    <color name="base002"   value="#003c4d"/>
+
+    <color name="white-smoke" value="#e5e5e5"/>
     <color name="gainsboro" value="#dcdcdc"/> 
     <color name="light-gray" value="#d3d3d3"/>  
 
-    <!-- white-smoke => base01 -->
     <!-- Global Settings -->
-    <style name="text"                        foreground="light-gray" background="base03"/>
-    <style name="selection"                   foreground="base03" background="base00"/>
+    <style name="text"                        foreground="white-smoke" background="base03"/>
+    <style name="selection"                   foreground="green" background="base002"/>
     <style name="cursor"                      foreground="base1"/>
     <style name="current-line"                background="base02"/>
-    <style name="line-numbers"                foreground="base01" background="base02"/>
+    <style name="line-numbers"                foreground="base0" background="base02"/>
 
   
     <!-- Bracket Matching -->
